@@ -1,5 +1,9 @@
 import { logo } from "../assets";
 
+const rapidApiKey = import.meta.env.VITE_RAPID_API_ARTICLE_KEY;
+
+console.log(rapidApiKey);
+
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
